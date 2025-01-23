@@ -29,27 +29,27 @@ namespace Platformer397
         }
         public void OnAttack(InputAction.CallbackContext context)
         {
-            //throw new System.NotImplementedException();
+            
         }
 
         public void OnCrouch(InputAction.CallbackContext context)
         {
-           // throw new System.NotImplementedException();
+           
         }
 
         public void OnInteract(InputAction.CallbackContext context)
         {
-            //throw new System.NotImplementedException();
+            
         }
 
         public void OnJump(InputAction.CallbackContext context)
         {
-            //throw new System.NotImplementedException();
+            
         }
 
         public void OnLook(InputAction.CallbackContext context)
         {
-            //throw new System.NotImplementedException();
+            
         }
 
         public void OnMove(InputAction.CallbackContext context)
@@ -61,7 +61,6 @@ namespace Platformer397
                     Move?.Invoke(context.ReadValue<Vector2>());
                     break;
                 default:
-                    Debug.Log("Not input handled");
                     break;
 
             }
@@ -69,17 +68,17 @@ namespace Platformer397
 
         public void OnNext(InputAction.CallbackContext context)
         {
-            //throw new System.NotImplementedException();
+            
         }
 
         public void OnPrevious(InputAction.CallbackContext context)
         {
-            //throw new System.NotImplementedException();
+            
         }
 
         public void OnSprint(InputAction.CallbackContext context)
         {
-            //throw new System.NotImplementedException();
+            
         }
     }
 }
